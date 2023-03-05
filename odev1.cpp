@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   odev1.cpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: <dayilmaz@student.42kocaeli.com>           +#+  +:+       +#+        */
+/*   By: dayilmaz <dayilmaz@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/05 21:04:34 by dayilmaz          #+#    #+#             */
 /*   Updated: 2023/03/05 21:04:34 by dayilmaz         ###   ########.fr       */
@@ -108,6 +108,7 @@ class Liste
 				miktar++;
 				liste.root = liste.root->sonraki;
 			}
+			cout << “Listede”<<miktar<<”. siradir”;// EKRAN RESMİ ALINDIKTAN SONRA EKLENMİŞTİR
 			return (miktar);
 		}
 		Liste nincieleman(Liste liste, int n)
